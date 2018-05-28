@@ -1,5 +1,5 @@
 # jjCookies
-Plugin to help you website users opt-in and opt-out different types of cookies
+Very simple plugin to help your website users opt-in and opt-out for different types of cookies
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ You will need the following things properly installed on your computer.
 
 ### Implement
 
-`
+```
 var cookies = $('body').jjCookies({
    cookieConsentName: "NAME_FOR_THE_CONSENT_COOKIE",
    cookieConsentTypes: "s|f|p|m",
@@ -62,4 +62,4 @@ $('body').bind("jjCookies:didChangeCookieSettings", function() {
    }
 
 });
-`
+```
